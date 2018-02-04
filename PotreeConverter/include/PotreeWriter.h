@@ -109,7 +109,7 @@ public:
 	CloudJS cloudjs;
 	OutputFormat outputFormat;
 	PointAttributes pointAttributes;
-	int hierarchyStepSize = 5;
+	int hierarchyStepSize = 1;
 	vector<Point> store;
 	thread storeThread;
 	int pointsInMemory = 0;
